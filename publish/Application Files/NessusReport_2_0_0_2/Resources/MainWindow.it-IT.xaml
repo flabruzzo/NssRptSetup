@@ -1,0 +1,124 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:NessusReport.Resources"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="ResourceDictionaryName">Loc-it-IT</system:String>
+
+    <!-- Resources per le impostazioni-->
+    <system:String x:Key="LogSettings">Impostazioni LOG</system:String>
+    <system:String x:Key="SaveSettings">Impostazioni salvataggio</system:String>
+    <system:String x:Key="SaveSettingsDesc">Seleziona il percorso dove salvare i report</system:String>
+    <system:String x:Key="LogSettingsDesc">Seleziona il percorso dove salvare i logs</system:String>
+    <system:String x:Key="LblCurrLogPath">Path dei log</system:String>
+    <system:String x:Key="LblCurrSavePath">Path salvataggio</system:String>
+    <system:String x:Key="LangSettings">Impostazioni lingua</system:String>
+    <system:String x:Key="LangSettingsDesc">Seleziona la lingua di sistema</system:String>
+    <system:String x:Key="SaveOK">Impostazioni salvate</system:String>
+    <system:String x:Key="Settings">Impostazioni</system:String>
+    <system:String x:Key="LocalCache">Impostazioni Cache Vulnerabilità</system:String>
+    <system:String x:Key="LocalCacheDesc">Seleziona il percorso del file Word con la cache vulnerabilità. Cancella per eliminare</system:String>
+    <system:String x:Key="LocalCachePath">Path file cache</system:String>
+
+
+    <!-- Resources generali-->
+    <system:String x:Key="Yes">Si</system:String>
+    <system:String x:Key="Save">Salva</system:String>
+    <system:String x:Key="ErrorTitle">Errore</system:String>
+
+    <!-- Resources per le pagina principale-->
+    <system:String x:Key="OpenNss">Carica Nessus</system:String>
+    <system:String x:Key="OpenNmap">Carica Nmap</system:String>
+    <system:String x:Key="OpenTemplate">Carica Template</system:String>
+    <system:String x:Key="ShowInfo">Mostra vulnerabilità con Severity Info</system:String>
+    <system:String x:Key="ProgramOpt">OPZIONI AVANZATE</system:String>
+    <system:String x:Key="ReportOpt">Tipo di report</system:String>
+    <system:String x:Key="BothReport">Crea report Word ed Excel</system:String>
+    <system:String x:Key="NmapReport">Crea entrambi i report con Nmap</system:String>
+    <system:String x:Key="OnlyXls">Crea solo l'Excel</system:String>
+    <system:String x:Key="ShowInfoTip">Mostra le vulnerabilità con Info</system:String>
+    <system:String x:Key="BothReportTip">Crea entrambi i report in Word ed Excel</system:String>
+    <system:String x:Key="NmapReportTip">Crea entrambi i report inserendo le estrazioni Nmap nel file Word</system:String>
+    <system:String x:Key="OnlyXlsTip">Crea solo il file Excel. Salta il Word</system:String>
+    <system:String x:Key="InetOpt">Ricerca web</system:String>
+    <system:String x:Key="NoInetCheck">Non effettuare la ricerca dati online</system:String>
+    <system:String x:Key="NoInetTip">Non effettua la ricerca dati sul sito Tenable e Nist. Velocizza l'esecuzione ma diminuisce l'accuratezza</system:String>
+    <system:String x:Key="InternalScan">Internal Scan</system:String>
+    <system:String x:Key="InternalScanTip">Selezionare se è uno scan interno per escludere le signature SSL</system:String>
+    <system:String x:Key="AdvParam">PARAMETRI AVANZATI</system:String>
+    <system:String x:Key="lblRegionName">Regione</system:String>
+    <system:String x:Key="lblSiteName">Site</system:String>
+    <system:String x:Key="lblCountryName">Country</system:String>
+    <system:String x:Key="lblCityName">City</system:String>
+    
+    
+    <!-- Resources per le pagina Excel2Word-->
+    <system:String x:Key="OpenXls">Carica Excel</system:String>
+
+    <!-- Resources per le pagina NmapCreator-->
+    <system:String x:Key="NmapLoad">Carica Nmap</system:String>
+    
+    <!-- Resources per le pagina About-->
+    <system:String  xml:space="preserve" x:Key="Refreshupg">Controlla &#13;aggiornamenti</system:String>
+    
+    <!-- Resource per gestione errori-->
+    <system:String x:Key="MissActCode">Non hai inserito l'Activity Code</system:String>
+    <system:String x:Key="MissActCodeTitle">Attenzione</system:String>
+    <system:String x:Key="MissNmap">Non hai selezionato il file Nmap</system:String>
+    <system:String x:Key="MissNmapTitle">Nessun file Nmap</system:String>
+    <system:String x:Key="MissNessus">Non hai selezionato il file Nessus</system:String>
+    <system:String x:Key="MissNessusTitle">Nessun file Nessus</system:String>
+    <system:String x:Key="ProcessFail">Errore nella crezione file\n Verifica i log </system:String>
+    <system:String x:Key="PlaceHolderMiss">PlaceHolder mancanti!</system:String>
+
+    <system:String x:Key="MissExcel">Non hai selezionato il Report Excel</system:String>
+    <system:String x:Key="MissExcelTitle">Nessun report Excel</system:String>
+    <system:String x:Key="MissWord">Non hai selezionato il Template Word</system:String>
+    <system:String x:Key="MissWordTitle">Nessun template Word</system:String>
+
+    <!-- Resource per MainWindow.xaml-->
+    <system:String x:Key="ProcessComplete">Processo completato con successo!</system:String>
+    <system:String x:Key="ProcessCompleteTitle">Processo completato</system:String>
+    <system:String x:Key="ProcessExcelCompleted">Estrazione da Excel completato\n Report creato!</system:String>
+
+    <!-- Resource per ProgressAlert-->
+    <system:String x:Key="InProgress">Attività in corso... Attendere...</system:String>
+
+    <!-- Resource per ProgressBar-->
+    <system:String x:Key="BuildWordTable">Compilando le tabelle vulnerabilità su Word</system:String>
+    <system:String x:Key="BuildWord">Salvataggio file Word...</system:String>
+    <system:String x:Key="BuildVulnerabilities">Estrazione dati... Trovate {0} vulnerabilità su {1} record...</system:String>
+    <system:String x:Key="BuildExcelRow">Compilazione Excel... Riga {0} di {1}</system:String>
+    <system:String x:Key="BuildExcelNessus">Estrazione vulnerabilità...  {0} di {1}</system:String>
+    <system:String x:Key="BuildNmap">Estrazione da report Nmap...Attendi..</system:String>
+
+
+    <!-- Resource per UpgradeVersion-->
+    <system:String x:Key="DeploymentDownloadException" xml:space="preserve">La nuova versione non può essere scaricata ora. &#13;&#13;Controlla la connessione di rete. Errore: </system:String>
+    <system:String x:Key="InvalidDeploymentException">Impossibile verificare una nuova versione dell'applicazione. Il deployment di ClickOnce è corrotto. Reinstalla l'app e riprova. Errore: </system:String>
+    <system:String x:Key="InvalidOperationException">Impossibile aggiornare l'applicazione! Non è un problema ClickOnce. Errore:  </system:String>
+    <system:String x:Key="UpdAvailTitle">Aggiornamento disponibile</system:String>
+    <system:String x:Key="UpdAvail">E' disponibile una nuova versione. Aggiornare ora?</system:String>
+    <system:String x:Key="UpgOk">L'aggiornamento è avvenuto correttamente. L'applicazione verrà riavviata</system:String>
+    <system:String x:Key="UpgFailed">Errore durante l'upgrade.\n\nVerifica la connessione o riprova. Errore: </system:String>
+    <system:String x:Key="UpgMandatory">E' stato rilevato un aggiornamento obbligatorio alla versione {0}. L'upgrade verrà installato e l'applicazione riavviata</system:String>
+
+
+    <!-- Resource per CheckVersion-->
+    <system:String x:Key="NewVersion">Nuova versione disponibile: v</system:String>
+    <system:String x:Key="LatestVersion">L'applicazione è già aggiornata all'ultima release</system:String>
+    <system:String x:Key="LatestVersTitle">Nessun aggiornamento disponibile</system:String>
+    <system:String x:Key="UpgMandatoryAlert">Aggiornamento obbligatorio disponibile!</system:String>
+    <system:String x:Key="UpgAlertToolTip">E' disponibile una nuova release</system:String>
+
+    <!-- Resource per StatusBar-->
+    <system:String x:Key="StatBarWait">Attendere....</system:String>
+    <system:String x:Key="StatBarFinish">Terminato</system:String>
+    <system:String x:Key="StatBarReady">Pronto</system:String>
+    
+    
+    <!-- Resource per VulnerabilityList.cs-->
+    <system:String x:Key="CountAttentionTitle">Attenzione....</system:String>
+    <system:String x:Key="CountAttentionMessage">Sono presenti più di {0} record! La ricerca online pù rallentare l'esecuzione! Disabilitarla?</system:String>
+
+
+</ResourceDictionary>
