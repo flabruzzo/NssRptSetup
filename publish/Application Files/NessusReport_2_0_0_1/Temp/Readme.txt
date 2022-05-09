@@ -1,0 +1,1 @@
+﻿In questa cartella vengono temporaneamente salvate le immagini estratta dalla cache
