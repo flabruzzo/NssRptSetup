@@ -1,0 +1,122 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:NessusReport.Resources"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="ResourceDictionaryName">Loc-en-US</system:String>
+    
+    
+    <!-- Resources per le impostazioni-->
+    <system:String x:Key="LogSettings">Logs Settings</system:String>
+    <system:String x:Key="LogSettingsDesc">Please select folder to save application logs.</system:String>
+    <system:String x:Key="LblCurrLogPath">Current Log Path</system:String>
+    <system:String x:Key="LangSettings">Language Settings</system:String>
+    <system:String x:Key="LangSettingsDesc">Please select Application Language.</system:String>
+    <system:String x:Key="SaveSettings">Save setting</system:String>
+    <system:String x:Key="SaveSettingsDesc">Please select folder to save reports</system:String>
+    <system:String x:Key="LblCurrSavePath">Save Path</system:String>
+    <system:String x:Key="SaveOK">Settings saved</system:String>
+    <system:String x:Key="Settings">Settings</system:String>
+    <system:String x:Key="LocalCache">Settings for Vulnerabilities Cache</system:String>
+    <system:String x:Key="LocalCacheDesc">Select local vulnerabilities cache path.</system:String>
+    <system:String x:Key="LocalCachePath">Local Cache Path</system:String>
+
+
+    <!-- Resources generali-->
+    <system:String x:Key="Yes">Yes</system:String>
+    <system:String x:Key="Save">Save</system:String>
+    <system:String x:Key="ErrorTitle">Error</system:String>
+    
+    
+    <!-- Resources per le pagina principale-->
+    <system:String x:Key="OpenNss">Open Nessus</system:String>
+    <system:String x:Key="OpenNmap">Open Nmap</system:String>
+    <system:String x:Key="OpenTemplate">Open Template</system:String>
+    <system:String x:Key="ShowInfo">Show vulnerabilities with Info Severity</system:String>
+    <system:String x:Key="ProgramOpt">ADVANCED OPTIONS</system:String>
+    <system:String x:Key="ReportOpt">Report Type</system:String>
+    <system:String x:Key="BothReport">Create Word and Excel reports</system:String>
+    <system:String x:Key="NmapReport">Create reports using Nmap</system:String>
+    <system:String x:Key="OnlyXls">Create only Excel file</system:String>
+    <system:String x:Key="ShowInfoTip">Show vulnerabilities with Info Severity</system:String>
+    <system:String x:Key="BothReportTip">Create both Word and Excel reports</system:String>
+    <system:String x:Key="NmapReportTip">Create both reports using Nmap extraction</system:String>
+    <system:String x:Key="OnlyXlsTip">Create only Excel file. Skip Word file</system:String>
+    <system:String x:Key="InetOpt">Web Search</system:String>
+    <system:String x:Key="NoInetCheck">Don't search online</system:String>
+    <system:String x:Key="NoInetTip">Doesn't search Tenable and Nist website. More speed and less accuracy</system:String>
+    <system:String x:Key="InternalScan">Internal Scan</system:String>
+    <system:String x:Key="InternalScanTip">Select for internal Scan to remove SSL signatures</system:String>
+    <system:String x:Key="AdvParam">ADVANCED PARAMETERS</system:String>
+    <system:String x:Key="lblRegionName">Region Name</system:String>
+    <system:String x:Key="lblSiteName">Site Name</system:String>
+    <system:String x:Key="lblCountryName">Country</system:String>
+    <system:String x:Key="lblCityName">City</system:String>
+
+    <!-- Resources per le pagina Excel2Word-->
+    <system:String x:Key="OpenXls">Open Excel</system:String>
+
+    <!-- Resources per le pagina NmapCreator-->
+    <system:String x:Key="NmapLoad">Load Nmap</system:String>
+
+    <!-- Resources per le pagina About-->
+    <system:String x:Key="Refreshupg">Check for upgrade</system:String>
+
+
+    <!-- Resource per gestione errori-->
+    <system:String x:Key="MissActCode">No Activity Code entered</system:String>
+    <system:String x:Key="MissActCodeTitle">Attention</system:String>
+    <system:String x:Key="MissNmap">No Nmap scan selected</system:String>
+    <system:String x:Key="MissNmapTitle">No Nmap</system:String>
+    <system:String x:Key="MissNessus">No Nessus file Selected</system:String>
+    <system:String x:Key="MissNessusTitle">No Nessus</system:String>
+    <system:String x:Key="ProcessFail">Process error!</system:String>
+    <system:String x:Key="PlaceHolderMiss">PlaceHolder Miss!</system:String>
+
+    <system:String x:Key="MissExcel">No Excel report selected</system:String>
+    <system:String x:Key="MissExcelTitle">No Excel report</system:String>
+    <system:String x:Key="Missword">No Word Template selected</system:String>
+    <system:String x:Key="MisswordTitle">No Word template</system:String>
+
+    <!-- Resource per MainWindow.xaml-->
+    <system:String x:Key="ProcessComplete">Process completed successfully!</system:String>
+    <system:String x:Key="ProcessCompleteTitle">Done</system:String>
+
+
+    <!-- Resource per ProgressAlert-->
+    <system:String x:Key="InProgress">In progress. Please Wait...</system:String>
+
+
+    <!-- Resource per ProgressBar-->
+    <system:String x:Key="BuildWordTable">Compiling vulnerabilities tables on Word...</system:String>
+    <system:String x:Key="BuildWord">Saving Word...</system:String>
+    <system:String x:Key="BuildVulnerabilities">Parsing Nessus...Found {0} vulns of {1} records</system:String>
+    <system:String x:Key="BuildExcelRow">Compiling Excel... Row {0} of {1}</system:String>
+    <system:String x:Key="BuildExcelNessus">Extraction vulnerabilities...  {0} of {1}</system:String>
+    <system:String x:Key="BuildNmap">Extraction datas from Nmap report...wait..</system:String>
+
+
+    <!-- Resource per UpgdareVersion-->
+    <system:String x:Key="DeploymentDownloadException"  xml:space="preserve">The new version of the application cannot be downloaded at this time. &#13;&#13;Please check your network connection, or try again later. Error: </system:String>
+    <system:String x:Key="InvalidDeploymentException">Cannot check for a new version of the application. The ClickOnce deployment is corrupt. Please redeploy the application and try again. Error: </system:String>
+    <system:String x:Key="InvalidOperationException">This application cannot be updated. It is likely not a ClickOnce application. Error: </system:String>
+    <system:String x:Key="UpdAvailTitle">Update Available</system:String>
+    <system:String x:Key="UpdAvail">An update is available. Would you like to update the application now?</system:String>
+    <system:String x:Key="UpgOk">The application has been upgraded, and will now restart.</system:String>
+    <system:String x:Key="UpgFailed">Cannot install the latest version of the application. \n\nPlease check your network connection, or try again later. Error: </system:String>
+    <system:String x:Key="UpgMandatory">This application has detected a mandatory update from your current version to version {0}. The application will now install the update and restart</system:String>
+
+    <!-- Resource per CheckVersion-->
+    <system:String x:Key="NewVersion">New Online Update: v</system:String>
+    <system:String x:Key="LatestVersion">You are on the latest version</system:String>
+    <system:String x:Key="LatestVersTitle">No update available</system:String>
+    <system:String x:Key="UpgMandatoryAlert">Mandatory Upgrade!</system:String>
+    <system:String x:Key="UpgAlertToolTip">New release available</system:String>
+
+    <!-- Resource per StatusBar-->
+    <system:String x:Key="StatBarWait">Wait....</system:String>
+    <system:String x:Key="StatBarFinish">Finish</system:String>
+    <system:String x:Key="StatBarReady">Ready</system:String>
+    
+    
+
+</ResourceDictionary>
